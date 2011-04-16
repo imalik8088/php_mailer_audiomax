@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kontaktformular Audiomax</title>
+<style type="text/css">
+*{
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	text-align: justify;
+	font-size: 12px;
+	word-spacing: 1px;
+	border-width: 0px;
+	color: #000;
+	background-color:#FFF;
+}
+textarea,input{border:dashed 1px gray; margin:10px;}
+input{width:220px;}
+input:focus{ background-color: #FF9332;}
+textarea:focus{background-color: #FF9332;}
+button {background-color:#CCC; padding:5px; }
+button:hover {background-color:#FF9332; cursor:pointer;}
+</style>
+</head>
+<body>
+<div id="main">
+	<form action="mail.php" method="post" id="form1"> 
+    <table style="vertical-align:top;">
+      <tr>
+      <td>Name</td>
+        <td><input type="text" name="Name" /></td>
+		</tr>
+		<tr>
+        <td>E-Mail</td>
+        <td><input type="text" name="Mail" /></td>
+      </tr>
+      <tr>
+        <td>Betreff</td>
+        <td><input type="text" name="Betreff" /></td>
+	  </tr>
+	  <tr>
+        <td valign="top">Nachricht</td>
+        <td><textarea name="Nachricht" cols="50" rows="8"></textarea></td>
+	  </tr>
+      <tr>
+      <td colspan="2"> <button type="submit">Senden</button> </td>
+    </table>
+    </form>
+</div>
+</body>
+</html>
