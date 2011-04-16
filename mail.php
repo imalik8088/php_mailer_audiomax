@@ -11,7 +11,7 @@
 
         $mailtext.= htmlspecialchars($Nachricht);
         
-		$Empfaenger = "akhlaq87@googlemail.com";
+		$Empfaenger = "XXXXXXXX@googlemail.com";
 	
 		$header = 'From: noreply@audiomax-campusradio.de' . "\r\n" .
 		    'Reply-To: noreply@audiomax-campusradio.de' . "\r\n" .
